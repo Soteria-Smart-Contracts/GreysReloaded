@@ -30,7 +30,7 @@ function ShowCollection(){
             newcard.className = "NFTcard";
             newcard.id = indexid;
             let img = '<img class="nftimage" src="src/images/collection/' + indexid + '.PNG"></img>"';
-            let BlockscoutLink = 'https://blockscout.com/etc/mainnet/token/0x2001d679210c0e4531f5c07155d8e3677dd388ae/instance/' + indexid +  '/token-transfers';
+            let BlockscoutLink = 'https://blockscout.com/etc/mainnet/token/0x18265d64393Ca917995Abf34bf73d39952f2D85b/instance/' + indexid +  '/token-transfers';
             newcard.innerHTML = img + '<a class="nftID head">GreysReloaded ID:</a>' + '<br>' + '<a class="nftID">' + indexid + '</a>' + '<br>' + '<a class="nftID scout" href="' + BlockscoutLink + '" target="_blank">View On Blockscout</a>';
             document.getElementById("CollectionContainer").appendChild(newcard);
             index--;
@@ -47,7 +47,7 @@ function ShowCollection(){
             newcard.className = "NFTcard";
             newcard.id = indexid;
             let img = '<img class="nftimage" src="src/images/collection/' + indexid + '.PNG"></img>"';
-            let BlockscoutLink = 'https://blockscout.com/etc/mainnet/token/0x2001d679210c0e4531f5c07155d8e3677dd388ae/instance/' + indexid +  '/token-transfers';
+            let BlockscoutLink = 'https://blockscout.com/etc/mainnet/token/0x18265d64393Ca917995Abf34bf73d39952f2D85b/instance/' + indexid +  '/token-transfers';
             newcard.innerHTML = img + '<a class="nftID head">GreysReloaded ID:</a>' + '<br>' + '<a class="nftID">' + indexid + '</a>' + '<br>' + '<a class="nftID scout" href="' + BlockscoutLink + '" target="_blank">View On Blockscout</a>';
             document.getElementById("CollectionContainer").appendChild(newcard);
             index++;
