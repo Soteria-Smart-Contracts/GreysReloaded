@@ -1,6 +1,6 @@
 window.abi =[ 
 	{   
-		"inputs": [
+		"inputs": [ 
 			{
 				"internalType": "string",
 				"name": "_name",
