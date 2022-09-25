@@ -35,7 +35,7 @@ function ShowCollection(){
             document.getElementById("CollectionContainer").appendChild(newcard);
             index--;
         }
-    }
+    } 
 
     if (updown == "up"){
         while(index < (CollectionNum + 100)){
