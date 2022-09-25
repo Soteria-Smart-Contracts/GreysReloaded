@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/styling.css">
+    <link rel="icon" type="image/x-icon" href="src/images/favicon.ico">
+    <script 
+    src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.6.1/web3.min.js"
+    integrity="sha512-5erpERW8MxcHDF7Xea9eBQPiRtxbse70pFcaHJuOhdEBQeAxGQjUwgJbuBDWve+xP/u5IoJbKjyJk50qCnMD7A=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer">
+    </script>
+    <title>Greys Reloaded</title>
+</head>
+<body>
+ <div id="minting" class="minting">
+        
+        <h1> hi</h1>
+
+    <div class="center">
+        <div class="generaldiv">
+            <h1>GreysReloaded Minting</h1>
+            <h2>Minted: <a id="supply">0</a>/501 | Price: 0.65 ETC</h2>
+            <br>
+            <a onclick="SwitchPage('wallet')" class="smallbutton wallet">My GreysReloaded</a>
+            <a onclick="setUpdown('up'),SwitchPage('collection')" class="smallbutton wallet">Full Collection</a>
+                <div class="mintdiv">
+                    <input id="amount" max="20" placeholder="Amount To Mint" pattern=" 0+\.[0-9]*[1-9][0-9]*$" onkeypress="return event.charCode >= 48 && event.charCode <= 57" min="0" step="1" class="input" type="number"></input>
+                    <br>
+                    <a onclick="mint()" class="smallbutton mint">Mint</a>
+                </div>
+                <a class="conlink" href="https://blockscout.com/etc/mainnet/address/0x18265d64393Ca917995Abf34bf73d39952f2D85b/contracts#address-tabs" target="_blank">Contract On Blockscout</a>
+        </div>
+        <a class="txviewer" id="txviewer">Awaiting Blockchain confirmation <br><img src="src/images/spin.gif" id="spin" class="spingif"></img></a>
+    </div>
+    <br></br>
+    <br></br>
+    <h4>Please ensure you are connected to the Ethereum Classic Network in order to avoid a loss of funds!</h4>
+    
+ </div>
+ <div id="wallet" class="display">
+   <a onclick="SwitchPage('mint')" class="DisplayHeader return">Return</a>
+   <br>
+   <a class="DisplayHeader">My GreysReloaded</a>
+   <div class="NFTContainer" id="WalletContainer">
+    
+   </div>
+ </div>
+
+ <div id="collection" class="display">
+    <a onclick="SwitchPage('mint')" class="DisplayHeader return">Return</a>
+    <br>
+    <a class="DisplayHeader">Entire GreysReloaded Collection</a>
+    <br>
+    <br>
+    <div class="NFTContainer" id="CollectionContainer">
+     
+    </div>
+    <button class="smallbutton wallet center" onclick="ShowCollection()">Show More</button>
+  </div>
+
+</body>
+<script src="src/Functionality.js"></script>
+<script src="src/abi.js"></script>
+<script src="src/rankingorder.js"></script>
+<script src="src/Web3.js"></script>
+</html>

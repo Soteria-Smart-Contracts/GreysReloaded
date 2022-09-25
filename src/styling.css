@@ -1,0 +1,335 @@
+body{
+    background-image: url("images/bg.png");
+    display: block;
+    height: fit-content;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-color: #1cb0ce;
+    background-size: fill;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
+h1{
+    font-family: Arial;
+    color: white;
+    font-weight: bolder;
+}
+
+h4{
+    font-family: Arial;
+    font-size: large;
+    color: white;
+}
+
+.txviewer{
+    font-family: Arial;
+    font-size: large;
+    font-weight: bolder;
+    color: #15154c;
+    background-color: #32b33f;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 1.3vh;
+    padding-bottom: 1.3vh;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 3vh;
+    width: fit-content;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+.display{
+    margin-top: 25vh;
+    text-align: left;
+}
+
+.DisplayHeader{
+    font-family: Arial;
+    font-size: 5vh;
+    color: white;
+    text-decoration: underline;
+    font-weight: bolder;
+    padding-left: 10vw;
+}
+
+.DisplayHeader.return{
+    text-decoration: none;
+    font-size: 3vh;
+    cursor: pointer;
+    color: white;
+}
+
+.nftID{
+    font-family: Arial;
+    font-size: 2vh;
+    color: white;
+    font-weight: bolder;
+
+}
+
+.nftID.head{
+    margin-top: 6vh;
+}
+
+.nftID.scout{
+    font-size: 13px;
+    font-size: 1.4vh;
+}
+
+h2{
+    font-family: Arial;
+    color: white;
+    font-size: 25px;
+    margin: 2vh;
+    margin-bottom: 1vh;
+}
+
+h3{
+    font-family: Arial;
+    color: white;
+    font-size: 30px;
+    margin: 0 auto;
+    margin-bottom: 3vh;
+    margin-top: 1.8vh;
+}
+
+.smallbutton{
+    background-color: #12658f;
+    border: none;
+    font-family: Arial;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2vh 1vw;
+    cursor: pointer;
+    border: #d6ceab solid 2px;
+    border-radius: 10px;
+    margin-bottom: 1vh;
+}
+
+.spingif{
+    padding-left: 1vw;
+    width: 3vh;
+    height: 3vh;
+    padding-top: 0.8vh;
+    margin: 0 auto;
+}
+
+
+.smallbutton.mint{
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: bolder;
+    width: 8vw;
+    transition: all .2s  ease-in-out;
+}
+
+.smallbutton.mint:hover{
+    background-color: #00b600;
+}
+
+.smallbutton.wallet{
+    font-weight: bold;
+    background-color: #15154c;
+}
+
+.smallbutton.wallet.center{
+    margin-left: 43vw;
+}
+
+.logo{
+    width: 8vw;
+    height: 16vh;
+    padding-top: 1vh;
+    position: relative;
+    align-self: center;
+    border-radius: 30px;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+}
+
+.conlink{
+    font-family: Arial;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.generaldiv{
+    display: inline-block;
+    width: 40vw;
+    margin: 0 auto;
+    height: max-content;
+    text-align: center;
+    padding: 2vh;
+    margin-top: 100vh;
+    position: relative;
+    align-self: center;
+    background-color: #06caf2;
+    border: solid 3px #000000;
+    border-radius: 20px;
+    padding-bottom: 2%;
+}
+
+.mintdiv{
+    height: 18vh;
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+    padding: 2vh;
+    padding-top: 6vh;
+    margin-top: 2vh;
+    position: relative;
+    align-self: center;
+    background-color: #15154c;
+    border-radius: 20px;
+    margin-bottom: 2vh;
+
+}
+
+.center{
+    display: inline-block;
+    text-align: left;
+}
+
+.input{
+    font-size: larger;
+    text-align: center;
+    width: 12vw;
+    color: white;
+    height: 4vh;
+    border-radius: 30px;
+    border: solid 2px #d6ceab;
+    background-color: #12658f;
+    padding-left: 1vw;
+    margin-bottom: 2vh;
+}
+
+
+.gifs{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 17vh;
+    border-radius: 150px;
+    height: max-content;
+    width: max-content;
+    padding: 2vh;
+    margin-right: 8vh;
+    margin-left: 8vh;
+    border: #3aeb1b solid 5px;
+    background-color: black;
+}
+
+.gif{
+    height: 30vh;
+    border-radius: 100px;
+}
+
+.NFTContainer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-align: center;
+    margin-top: 10vh;
+    margin-left: 8vw;
+    margin-right: 10vw;
+
+}
+
+.nftimage{
+    height: 25vh;
+    width: 13vw;
+    min-width: 175px;
+    border-radius: 5px;
+    border-top-right-radius: 24px;
+    border-top-left-radius: 24px;
+    margin-bottom: 1vh;
+}
+
+.NFTcard{
+    height: fit-content;
+    min-width: 175px;
+    width: 13vw;
+    text-align: center;
+    background-color: #15154c;
+    border-radius: 30px;
+    border: solid 5px #d6ceab;
+    margin: 2vh;
+    padding-bottom: 2vh;
+
+}
+
+@media (pointer:none), (pointer:coarse) {
+    .logo{
+        display: none;
+
+    }
+
+    body{
+        background-image: none;
+    }
+
+    .display{
+        text-align: center;
+        align-items: center;
+        margin-top: 2vh;
+    }
+
+    .nftimage{
+        width: 60vw;
+        height: 30vh;
+    }
+
+    .DisplayHeader{
+        font-family: Arial;
+        font-size: 4vh;
+        color: white;
+        text-decoration: underline;
+        font-weight: bolder;
+        padding-left: 0;
+    }
+
+    .NFTcard{
+        width: 60vw;
+        height: 40vh;
+    }
+
+    .NFTContainer{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 5vh;
+        margin-left: 13vw;
+        margin-right: 0;
+    
+    }
+
+    .generaldiv{
+        width: 80vw;
+        padding-bottom: 3vh;
+        margin-top: 2vh;
+    }
+
+    .input{
+        width: 50vw;
+    }
+
+    .smallbutton.mint{
+        width: 20vw;
+    }
+    .mintdiv{
+        padding-bottom: 5vh;
+    }
+
+    .gifs{
+        display: none;
+    }
+}
